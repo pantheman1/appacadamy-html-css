@@ -46,38 +46,51 @@
 .card {
     width: 344px;
     display: grid;
-    grid-template-rows: 194px 1fr 1fr;
-
+    grid-template-rows: 194px 1fr;
 }
 
-.card-group-2 {
+/*.card-group-2 {
     display: flex;
     flex-direction: row;
+}*/
+
+.card-titles-grouping {
+    display: flex;
+    flex-direction: column;
 }
+
 .card-image img {
     height: 194px;
     width: 100%;
 }
 
-.card-body-text {
-    padding: 16px;
-    color: red; /*color should be #232F34*/
-    size: 11px;
-}
-
-.card-title {
-    color: green; /*should be #000*/
-    size: 22px;
-}
-
-.card-secondary-text {
-    color: blue; /*color should be #232F34*/
-}
-
 .card-person img {
     border-radius: 50%;
     width: 40px;
+    margin: 15px;
 }
+
+.card-title h2 {
+    color: #000;
+    font-size: 22px;
+    margin-top: 12px;
+}
+
+.card-secondary-text {
+    color: #232F34;
+    font-size: 11px;
+    margin: 0;
+}
+
+.card-body-text {
+    padding: 16px;
+    color: #232F34;
+    font-size: 11px;
+}
+
+
+
+
 
 
         /*Here are the instructions:
