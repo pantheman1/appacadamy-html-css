@@ -1,26 +1,16 @@
 /* Your styles go in here. */
-#main {
-    width: 600px;
-    margin: 0 auto;
-}
-/*min-width works...not sure about the rest of it*/
+
 @media screen and (min-width: 600px) {
-    nav {
-        position: relative; /*what does this do?*/
-        top: 0;/*what does this do?*/
-        width: 100%; /*what does this do?*/
-        height: auto;
+
+    #full-screen-width {
+        width: 600px;
     }
-    main {
-        margin-top: 500px;/*does this do anything? Does it need a
-        container?*/
-    }
+
     .wrapper {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
         align-items: center;
-
 
     }
 
@@ -45,12 +35,10 @@
     label {
         display: inline-block;
         width: 110px;
-        text-align: right;
+        text-align: left;
         padding: 10px;
     }
-    #create_new_pet {
-        margin-left: 100px;
-    }
+
     button {
         margin-bottom: 16px;
     }
