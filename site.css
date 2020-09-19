@@ -43,6 +43,33 @@
     }
 }
 
+.card {
+    width: 344px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+.card-image {
+    height: 194px;
+}
+
+.card-body-text {
+    padding: 16px;
+    color: red; /*color should be #232F34*/
+    size: 11px;
+}
+
+.card-title {
+    color: green; /*should be #000*/
+    size: 22px;
+}
+
+.card-secondary-text {
+    color: blue; /*color should be #232F34*/
+}
+
+.card-person {
+    size: 400px;
+}
 
 
         /*Here are the instructions:
