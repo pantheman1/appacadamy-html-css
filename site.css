@@ -14,15 +14,8 @@
 
     }
 
-    /*label {
-        display: inline-block;
-        width: 110px;
-        text-align: left;
-*/
-
 }
 
-/*I don't know why the "position" is static or absolute*/
 @media screen and (max-width: 599px) {
 
     label {
@@ -52,11 +45,11 @@
     height: auto;
     margin-top: 5px;
     display: grid;
-    grid-template-rows: 194px 1fr;
+    grid-template-rows: 194px 55px;
     font-family: Arial;
     border-radius: 2%;
     border: 2px solid rgb(185, 185, 185);
-        }
+}
 
 .card-person-titles {
     display: flex;
@@ -66,6 +59,7 @@
 .card-image img {
     height: 194px;
     width: 100%;
+    border-radius: 2% 2% 0 0;
 }
 
 .card-person img {
@@ -92,18 +86,3 @@
     font-size: 11px;
     padding: 16px;
 }
-
-
-
-
-
-
-        /*Here are the instructions:
-        ...is 600px wide when the screen is greater than or equal to
-        600px wide
-        ... uses grid layout to layout labels and form elements when
-        the screen is greater than or equal to 600px wide
-        ... is the width of the screen when the screen is less than
-        600px wide
-        ... lays out the labels and form elements as full width when
-        the screen is less than 600px wide*/
