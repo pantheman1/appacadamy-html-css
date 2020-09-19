@@ -49,14 +49,14 @@
     grid-template-rows: 194px 1fr;
 }
 
-/*.card-group-2 {
+.card-person-titles {
     display: flex;
     flex-direction: row;
-}*/
+    }
 
-.card-titles-grouping {
-    display: flex;
-    flex-direction: column;
+.card-group-2 {
+    /*display: flex;
+    flex-direction: row;*/
 }
 
 .card-image img {
@@ -79,7 +79,8 @@
 .card-secondary-text {
     color: #232F34;
     font-size: 11px;
-    margin: 0;
+    /*display: grid;
+    justify-content: center;*/
 }
 
 .card-body-text {
