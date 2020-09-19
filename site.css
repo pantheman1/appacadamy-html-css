@@ -24,23 +24,22 @@
 
 /*I don't know why the "position" is static or absolute*/
 @media screen and (max-width: 599px) {
-    /*this section below seems to do nothing.
-    nav {
-        position: static;
-        height: auto;
-        margin: 20px;
-        padding: 50px;
-        box-sizing: border-box;
-    }*/
+
     label {
         display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 5px;
         width: 110px;
         text-align: left;
-        padding: 10px;
+        padding: 0px;
     }
 
     button {
-        margin-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    input, select, textarea {
+        width: 100%;
     }
 }
 
