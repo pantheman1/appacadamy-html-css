@@ -45,21 +45,22 @@
 
 .card {
     width: 344px;
+    height: auto;
+    margin-top: 5px;
     display: grid;
     grid-template-rows: 194px 1fr;
+    font-family: Arial;
+    border-radius: 2%;
+    border: 2px solid rgb(185, 185, 185);
 }
 
 .card-person-titles {
     display: flex;
     flex-direction: row;
-    }
-
-.card-group-2 {
-    /*display: flex;
-    flex-direction: row;*/
 }
 
 .card-image img {
+    /*border-radius: 2%;*/
     height: 194px;
     width: 100%;
 }
@@ -74,19 +75,19 @@
     color: #000;
     font-size: 22px;
     margin-top: 12px;
+    margin-bottom: 0px;
 }
 
 .card-secondary-text {
     color: #232F34;
     font-size: 11px;
-    /*display: grid;
-    justify-content: center;*/
+    margin-top: 10px;
 }
 
 .card-body-text {
-    padding: 16px;
     color: #232F34;
     font-size: 11px;
+    padding: 16px;
 }
 
 
